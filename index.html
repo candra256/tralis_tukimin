@@ -4,7 +4,7 @@
 
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title> belajar web </title>
+     <title> tukimin tralis </title>
 
      <!-- fonts -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,110 +19,26 @@
      <!-- my style -->
      <link rel="stylesheet" href="css/style.css">
 
+     <!-- alpaine js -->
+     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+
+     <!-- app script -->
+     <script src="src/app.js"></script>
+
 </head>
 <body>
      <!-- navbar star -->
-     <nav class = "navbar">
+     <nav class = "navbar"x-data>
 
-          <a href="#" class="navbar-logo">kenangan <span>senja.</span></a>
+          <a href="#" class="navbar-logo">Tukimin <span>Tralis.</span></a>
           <div class="navbar-nav">
                <a href="#home">home</a>
                <a href="#about">about</a>
-               <a href="#menu">menu</a>
                <a href="#products">produk</a>
-               <a href="#contact">contact</a>
           </div>
-
-          <div class="navbar-extra">
-               <a href="#" id="search-button"><i data-feather="search"></i></a>
-               <a href="#" id="shopping-cart-button"> <i data-feather="shopping-cart"></i></a>
-               <a href="#" id="hamburger-menu"> <i data-feather="menu"></i></a>
-          </div>
-
-          <!-- search form start --> 
-          <div class="search-form">
-               <input type="search" id="search-box" placeholder="search here...">
-               <label for="search-box"><i data-feather="search"></i></label>
-
-
-          </div>
-
-          <!-- search form end -->
-
-                    <!-- shooping cart start -->
-
-                    <div class="shopping-cart">
-`
-                         <div class="cart-item">
-                              <img src="product1.jpg" alt="">
-                              <div class="item-detail">
-                                   <h3> product 1 </h3>
-                                   <div class="item-price">IDR 30K </div>
-                              </div>
-                              <i data-feather="trash-2" class="remove-item"></i>
                
-                         </div>
-                         <div class="cart-item">
-                              <img src="product1.jpg" alt="">
-                              <div class="item-detail">
-                                   <h3> product 1 </h3>
-                                   <div class="item-price">IDR 30K </div>
-                              </div>
-                              <i data-feather="trash-2" class="remove-item"></i>
-               
-                         </div>
-                         <div class="cart-item">
-                              <img src="product1.jpg" alt="">
-                              <div class="item-detail">
-                                   <h3> product 1 </h3>
-                                   <div class="item-price">IDR 30K </div>
-                              </div>
-                              <i data-feather="trash-2" class="remove-item"></i>
-               
-                         </div>
-                         <div class="cart-item">
-                              <img src="product1.jpg" alt="">
-                              <div class="item-detail">
-                                   <h3> product 1 </h3>
-                                   <div class="item-price">IDR 30K </div>
-                              </div>
-                              <i data-feather="trash-2" class="remove-item"></i>
-               
-                         </div>
-                         <div class="cart-item">
-                              <img src="product1.jpg" alt="">
-                              <div class="item-detail">
-                                   <h3> product 1 </h3>
-                                   <div class="item-price">IDR 30K </div>
-                              </div>
-                              <i data-feather="trash-2" class="remove-item"></i>
-               
-                         </div>
-                         <div class="cart-item">
-                              <img src="product1.jpg" alt="">
-                              <div class="item-detail">
-                                   <h3> product 1 </h3>
-                                   <div class="item-price">IDR 30K </div>
-                              </div>
-                              <i data-feather="trash-2" class="remove-item"></i>
-               
-                         </div>
-                         <div class="cart-item">
-                              <img src="product1.jpg" alt="">
-                              <div class="item-detail">
-                                   <h3> product 1 </h3>
-                                   <div class="item-price">IDR 30K </div>
-                              </div>
-                              <i data-feather="trash-2" class="remove-item"></i>
-               
-                         </div>
-                    </div>
-               
-                    <!-- shooping cart start -->
-
      </nav>
-
-
 
 
      <!-- navbar end -->
@@ -133,11 +49,10 @@
 
      <section class="hero" id="home">
           <main class="konten">
-               <h1> mari nikmati secangkir <span>kopi</span></h1>
+               <h1> kami membuat besi menjadi indah dan <span>melindunggi</span></h1>
                <br>
-               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Porro veritatis a voluptate </p>
-               <a href="#" class="cta">Beli Sekarang</a>
+               <p>segera pasang tralis besi dirumah anda untuk perlindunggan yang lebih aman </p>
+               <a href="#products" class="cta">Lihat Penawaran kami Disini</a>
           </main>
      </section>
 
@@ -153,24 +68,18 @@
           <h2>  <span>About</span> us</h2>
           <div class="row">
                <div class="about-img">
-                    <img src="cup-coffee-with-pile-coffee-beans.jpg" alt="tentang kami">
+                    <img src="/img/Tukimin Tralis.png" alt="tentang kami">
 
                </div>
 
                <div class="konten2">
                     <h3> kenapa memilih kami ? </h3>
-                    <p>
-                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis 
-                         reiciendis nulla dolorum, deserunt excepturi et, dolor odio unde amet 
-                         in maiores perspiciatis!Quae dolorum delectus perferendis sint sapiente eligendi doloremque!
+                    <p> kami menjamin pelanggan untuk mendapatkan tralis impianya dengan keakuratan pengukuran yang pas,
+                         sehingga tidak terjadi salah ukuran . untuk melakukan hal ini tim kami akan mengukur tralis yang anda ingin beli
+                         langsung dirumah anda 
                     </p>
 
-                    <p>
-                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit consequuntur
-                          repellat, dolorem repellendus numquam.
-                    </p>
-
-
+                
                </div>
           </div>
 
@@ -178,177 +87,53 @@
 
      <!-- about section end -->
 
-     <!-- menu section start -->
-
-
-     <section id="menu" class="menu">
-          <h2> <span>Menu</span> kami</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing bjhih hiiih hdhaihhkdk hdiahd hdhidhiahihdhiahih</p>
-
-          <div class="row">
-               <div class="menu-card">
-                    <img src="about_us1.jpg" alt="" class="menu-card-img">
-                    <h3 class="menu-card-title">  -- esspreso -- </h3>
-                    <p class="menu-card-price">IDR 12k</p>
-               </div>
-               <div class="menu-card">
-                    <img src="about_us1.jpg" alt="" class="menu-card-img">
-                    <h3 class="menu-card-title">  -- esspreso -- </h3>
-                    <p class="menu-card-price">IDR 12k</p>
-               </div>
-               <div class="menu-card">
-                    <img src="about_us1.jpg" alt="" class="menu-card-img">
-                    <h3 class="menu-card-title">  -- esspreso -- </h3>
-                    <p class="menu-card-price">IDR 12k</p>
-               </div>
-               <div class="menu-card">
-                    <img src="about_us1.jpg" alt="" class="menu-card-img">
-                    <h3 class="menu-card-title">  -- esspreso -- </h3>
-                    <p class="menu-card-price">IDR 12k</p>
-               </div>
-
-               <div class="menu-card">
-                    <img src="about_us1.jpg" alt="" class="menu-card-img">
-                    <h3 class="menu-card-title">  -- esspreso -- </h3>
-                    <p class="menu-card-price">IDR 12k</p>
-               </div>
-               <div class="menu-card">
-                    <img src="about_us1.jpg" alt="" class="menu-card-img">
-                    <h3 class="menu-card-title">  -- esspreso -- </h3>
-                    <p class="menu-card-price">IDR 12k</p>
-               </div>
-          </div>
-
-
-
-
-
-     </section>
-
-
-     <!-- menu section end -->
+ 
 
      <!-- products section start  -->
-     <section class="products" id="products">
-          <h2> <span>produk unggulan</span> kami </h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae possimus velit iste nesciunt maiores! Consectetur.</p>
+     <section class="products" id="products" x-data="products">
+          <h2> <span>Tralis yang kami </span> tawarkan </h2>
+          
           <div class="row">
+               <template x-for="(item, index) in items" x-key="index">
                <div class="product-card">
                     <div class="product-icons">
-                         <a href="#"><i data-feather="shopping-cart"></i></a>
-                         <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          
+                         <a href="https://wa.link/kyodp8" class="item-detail-button" >
+                         <svg
+                         width="24"
+                         height="24"
+                         fill="none"
+                         stroke="currentColor"
+                         stroke-width="2"
+                         stroke-linecap="round"
+                         stroke-linejoin="round"
+                         >
+                         <use href="/img/feather-sprite.svg#message-square" />
+                         </svg>
+                         </a>
 
                     </div>
 
                     <div class="product-image">
-                         <img src="product1.jpg" alt="produk1">
+                         <img :src="`img/products/${item.img}`" :alt="item.name">
                     </div>
 
                     <div class="product-content">
-                         <h3>coffe beans 1</h3>
-                         <div class="product-stars">
-                              <i data-feather="star" class="star-full"></i>
-                              <i data-feather="star" class="star-full"></i>
-                              <i data-feather="star" class="star-full"></i>
-                              <i data-feather="star" class="star-full"></i>
-                              <i data-feather="star" class="star-full"></i>
-
-                         </div>
-                         <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+                         <!-- <h3 x-text="item.name"></h3> -->
+                 
+                         
                     </div>
                     
 
                </div>
-               <div class="product-card">
-                    <div class="product-icons">
-                         <a href="#"><i data-feather="shopping-cart"></i></a>
-                         <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+               </template>
 
-                    </div>
-
-                    <div class="product-image">
-                         <img src="product1.jpg" alt="produk1">
-                    </div>
-
-                    <div class="product-content">
-                         <h3>coffe beans 1</h3>
-                         <div class="product-stars">
-                              <i data-feather="star" class="star-full"></i>
-                              <i data-feather="star" class="star-full"></i>
-                              <i data-feather="star" class="star-full"></i>
-                              <i data-feather="star"></i>
-                              <i data-feather="star"></i>
-
-                         </div>
-                    </div>
-                    <div class="product-price">IDR 30K <span>IDR 55K</span></div>
-
-               </div>
-               <div class="product-card">
-                    <div class="product-icons">
-                         <a href="#"><i data-feather="shopping-cart"></i></a>
-                         <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
-
-                    </div>
-
-                    <div class="product-image">
-                         <img src="product1.jpg" alt="produk1">
-                    </div>
-
-                    <div class="product-content">
-                         <h3>coffe beans 1</h3>
-                         <div class="product-stars">
-                              <i data-feather="star" class="star-full"></i>
-                              <i data-feather="star" class="star-full"></i>
-                              <i data-feather="star" class="star-full"></i>
-                              <i data-feather="star"></i>
-                              <i data-feather="star"></i>
-
-                         </div>
-                    </div>
-                    <div class="product-price">IDR 30K <span>IDR 55K</span></div>
-
-               </div>
           </div>
      </section>
 
 
      <!-- products section end  -->
 
-
-
-
-
-     <!-- kontak section start -->
-
-     <section id="contact" class="contact">
-          <h2> <span>kontak</span> kami</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, nostrum.</p>
-
-          <div class="row">
-               <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.2747381323276!2d104.84914804621316!3d-5.356419699105369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4731a5871f1d8d%3A0x26c4a0a5f4f9ede0!2sWAYJAHA!5e0!3m2!1sid!2sid!4v1709884109053!5m2!1sid!2sid"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-               <form action="">
-                    <div class="input-group">
-                         <i data-feather="user"></i>
-                         <input type="text" placeholder="nama">
-                    </div>
-                    <div class="input-group">
-                         <i data-feather="mail"></i>
-                         <input type="text" placeholder="email">
-                    </div>
-                    <div class="input-group">
-                         <i data-feather="phone"></i>
-                         <input type="text" placeholder="no hp">
-                    </div>
-                    <button type="submit" class="btn">
-                         kirim pesan
-                    </button>
-               </form>
-          </div>
-     
-
-     </section>
-     <!-- kontak section end -->
 
      <!-- footer start -->
 
@@ -360,12 +145,6 @@
 
           </div>
 
-          <div class="links">
-               <a href="#home">home</a>
-               <a href="#about">about</a>
-               <a href="#menu">menu</a>
-               <a href="#contact">contact</a>
-          </div>
 
           <div class="credit">
                <p> created by <a href="#">candra</a>. | &copy; 2024.</p>
@@ -375,35 +154,7 @@
 
      <!-- footer end -->
 
-     <!-- modal box start -->
-     <div class="modal" id="item-detail-modal">
-          <div class="modal-container">
-               <a href="#" class="close-icon"><i data-feather="x"></i></a>
-               <div class="modal-content">
-                    <img src="product1.jpg" alt="product1">
-                    <div class="product-content">
-                         <h3>product1</h3>
-                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum commodi explicabo fugiat, consectetur praesentium cumque sit eum! Nobis similique maxime, sequi velit assumenda eum odio!</p>
-                         <div class="product-stars">
-                              <i data-feather="star" class="star-full"></i>
-                              <i data-feather="star" class="star-full"></i>
-                              <i data-feather="star" class="star-full"></i>
-                              <i data-feather="star" class="star-full"></i>
-                              <i data-feather="star" class="star-full"></i>
 
-                         </div>
-                         <div class="product-price">IDR 30K <span>IDR 55K</span></div>
-                         <a href="#" ><i data-feather="shopping-cart"></i><span>add to cart</span></a>
-                    </div>
-               </div>
-          </div>
-     </div>
-
-
-     <!-- modal box end -->
-
-
-     
 
      
      <!-- icon -->
