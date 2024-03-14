@@ -331,8 +331,7 @@ html{
 
 .hero .konten .cta:hover{
      padding:0.9rem 2.7rem ;
-     color: var(--primary);
-     background-color: #fff;
+  
      font-size: 1.2rem;
 }
 
