@@ -42,7 +42,7 @@ html{
 }
 
 .products .keterangan{
-  font-size: 1.2rem;
+  font-size: 1rem;
     
 }
 
@@ -188,7 +188,7 @@ html{
 .products
 
 {
-     padding:8rem 7% 1.4rem;
+     padding:8rem 8% 2rem;
      
 
 }
@@ -213,7 +213,7 @@ html{
 .about .about-img img{
      width: 600px;
      height: 300px;
-     border-radius: 5%;
+     border-radius: 2%;
      
 }
 
@@ -277,12 +277,26 @@ html{
 
 
 /* product section */
-.products .row{
+
+#products{
+     width: 100%;
+}
+
+
+.products .row {
      display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+     grid-template-columns: repeat(2, 1fr); /* Dua kolom dengan lebar yang sama */
+     grid-template-rows: repeat(3, auto); /* Dua baris dengan tinggi yang disesuaikan dengan konten */
      gap: 1.5rem;
      margin-top: 4rem;
-}
+ }
+ 
+/* .products .row{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(30rem, 2fr));
+     gap: 1.5rem;
+     margin-top: 4rem;
+} */
 
 .products .product-card{
      text-align: center;
@@ -317,9 +331,17 @@ html{
      border: 1px solid var(--primary);
 }
 
+.products .product-image{
+     width: 100%;
+     overflow-x: auto; /* Membuat overflow horizontal */
+     white-space: nowrap;
+     margin-top: 0.5rem;
+     margin-bottom: 0.5rem;
+}
 
 .products .product-image img{
-     height: 25rem;
+     max-width: 100%;
+     height: auto;
 
 }
 
